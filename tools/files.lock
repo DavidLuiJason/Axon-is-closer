@@ -1,6 +1,6 @@
 {
  "version": 2,
- "seal": "9e10a6b10d0d109f45882c4ecaffa2bbac1588e09576a3bf6976afc7bc1fe95f",
+ "seal": "159915b0448d204300101802aa89e5b7ac40cb987f5f1dad682e031be3e888f8",
  "dictionaries": [
   "public/dictionary/en"
  ],
@@ -321,6 +321,9 @@
   "src/components/Composer.tsx": {
    "bytes": 11755
   },
+  "src/components/ConverterScreen.tsx": {
+   "bytes": 20002
+  },
   "src/components/CrashLogModal.tsx": {
    "bytes": 6254
   },
@@ -329,6 +332,9 @@
   },
   "src/components/DesignTokensModal.tsx": {
    "bytes": 6859
+  },
+  "src/components/DictionaryScreen.tsx": {
+   "bytes": 26768
   },
   "src/components/ErrorBoundary.tsx": {
    "bytes": 3412
@@ -531,6 +537,15 @@
   "src/tools/engines/time/timer.ts": {
    "bytes": 4131
   },
+  "src/tools/imageEdit/cropResize.ts": {
+   "bytes": 3603
+  },
+  "src/tools/imageEdit/history.ts": {
+   "bytes": 2036
+  },
+  "src/tools/imageEdit/pictureSet.ts": {
+   "bytes": 4834
+  },
   "src/tools/textCounterRun.ts": {
    "bytes": 2305
   },
@@ -567,6 +582,9 @@
   "tests/crash.test.ts": {
    "bytes": 17237
   },
+  "tests/cropResize.test.ts": {
+   "bytes": 5924
+  },
   "tests/dictionary.test.ts": {
    "bytes": 11386
   },
@@ -600,6 +618,9 @@
   "tests/fixtures/sym1-written-set.json": {
    "bytes": 8593
   },
+  "tests/imageEditHistory.test.ts": {
+   "bytes": 3551
+  },
   "tests/kernel.test.ts": {
    "bytes": 22288
   },
@@ -620,6 +641,9 @@
   },
   "tests/pickHeadword.test.ts": {
    "bytes": 5483
+  },
+  "tests/pictureSet.test.ts": {
+   "bytes": 5465
   },
   "tests/roadmapSize.test.ts": {
    "bytes": 1714
